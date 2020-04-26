@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+html{
+    font-family: 'Roboto',"Helvetica Neue",Arial,sans-serif;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+.container{
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+body{
+    
+   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.69),rgba(0, 0, 0, 0.7)),    url(images/themepic.png);
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+}
+section{
+    display: block;
+    margin-top: 85px;
+}
+section::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/*----------------NAVIGATION ---------------------------*/
+nav{
+    background-color: #5086fd;
+    height: 55px;
+    display: block;
+    margin: 0;
+   position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.logo{
+    margin: 0px;
+    padding-left: 2%;
+    
+}
+.logo img{
+  height: 50px;
+    width: auto;
+}
+.searchbar{
+    height:34px;
+   
+    box-shadow:none;
+   
+    border:0 none;
+    border-radius:3px;
+    color:#fff;
+    margin: 8px 0%;
+    padding: 0 3%;
+}
+.search-custom{
+      height:34px;
+    width: 100%;
+    color: #fff;
+    box-shadow:none;
+    background:rgba(29, 50, 95, 0.46);
+    border:0 none;
+    border-radius:3px;
+    
+    padding: 0 2%;
+}
+.search-custom::placeholder{
+    font-size: 130%;
+    color: rgba(221, 221, 221, 0.71);
+    font-family: 'roboto';
+}
+
+.menuu{
+    float:right;
+}
+
+.navcorner{
+    float: right;
+    color: rgba(235, 235, 235, 0.99);
+    margin-top: 5px;
+    margin-right: 50px;
+}
+/*----------------SECTION MAIN --------------------------------
+------------------------------------------------------------
+--------------------------------------------------------
+
+
+----------------------------------------------------------*/
+
+h1{
+    font-size: 270%;
+    text-align: center;
+    margin: 30px 0px 8px 0px;
+    font-weight: 300;
+    color: rgba(240, 240, 240, 0.96);
+    word-spacing: 2px;
+    
+}
+.h1-title{
+    text-align: center;
+    font-weight: 300;
+    font-size: 110%;
+    margin-top: 10px;
+}
+.welcome p{
+    color: #e2d6d6;
+}
+.logsection {
+    margin-top: 30px;
+}
+.logsection::after{
+    clear: both;
+    content: "";
+    display: table;list-style-type: inherit;
+}
+/*--------------------REGISTER-----------------*/
+.register-card {
+    background-color: #fff;
+    border: solid 1px #e6e6e6;
+    border-radius: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 500;
+    color: #414141;
+    margin-bottom: 10px;
+    line-height: 30px;
+    clear: both;
+}
+h4::after{
+      display: block;
+    height: 1.5px;
+    width: 30%;
+    background-color: #0779e4;
+    content: "";
+    margin: 15px auto;
+   
+   
+}
+.login-img {
+    float: right;
+    width: 70%;
+    
+}
+.rehead{
+    padding-right: 10px;
+}
+.rehead::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.register {
+    margin: 0 auto;
+    width: 85%;
+}
+.outer{
+    margin-bottom: 15px;
+    
+}
+h5 {
+    font-weight: 600;
+    padding-left: 10px;
+    color: #818181;
+    font-size: 90%;
+
+    
+}
+
+.user-con {
+    height: 30px;
+    width: 100%;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+    color: rgb(80, 80, 80);
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.user {
+    margin: 8px 0;
+    margin-top: 0;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 2px;
+    border-bottom: solid 2px #4d7ad9;
+}
+.forgot:link, .forgot:visited{
+    font-size: 70%;
+    font-style: none;
+    color: #6996fa;
+    text-decoration: none;
+}
+.forgot:hover, .forgot:active{
+    text-decoration: underline;
+    text-decoration-color: #6996fa;
+}
+.button {
+    width: 100%;
+    height: 40px;
+    box-shadow: none;
+    border: solid 2px #5e72e4;
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: #5e72e4;
+    color: #f7f7f7;
+    font-size: 100%;
+}
+.button:hover{
+    background-color: #485bc6;
+    border-color: #485bc6;
+    transition: background-color 0.2s;
+}
+
+.or-login {
+    margin-top: 5%;
+}
+
+.login-with {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    color: #888DA8;
+    margin-bottom: 2%;
+    font-size: 80%;
+    position: relative
+}
+.login-with::after{
+      display: block;
+    height: 1px;
+    width: 70%;
+    background-color: #ddd;
+    content: "";
+    margin: 7px auto;
+   
+   
+}
+.icon-facebook {
+    text-align: center;
+    margin-bottom: 8%;
+}
+.not-registered  {
+    font-size: 85%;
+    text-align: center;
+    color: #888DA8;
+    margin-bottom: 5%;
+  
+}
+.sign-up {
+    text-decoration: none;
+    
+}
+
+.button2{
+     width: 70%;
+    margin: 0 auto;
+    height: 40px;
+    box-shadow: none;
+    border: solid 2px #5e72e4;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #5e72e4;
+    font-size: 100%;
+    padding: 1.7%;
+}
+.button2:hover, .button2:active{
+    color: #fff;
+    background-color:  #485bc6;
+    border-color:  #485bc6;
+    transition: 0.2s;
+}
+.mb6 {
+    margin-bottom: 6%;
+}
+/*----------------------ONT EH RIGHT-------------------------------*/
+
+.big{
+    border: solid 1px #e6e6e6;
+    border-radius: 10px;
+    padding: 1%;
+    position: relative;
+}
+.big::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.theme1 {
+    width: 100%;
+    height: auto;
+}
+.waifu{
+    
+    
+}
+.ree{
+    position: absolute;
+    top: 10%;
+    right: auto;
+    left: 25%;
+    font-size: 150%;
+    color: #e3e3e3;
+    
+}
+/*---------------------FOOTER---------------------------------
+-------------------------------------------------------
+----------------------------------------------*/
+
+.footer-text {
+    font-size: 80%;
+     color: #3367d6;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    
+}
+.text-link {
+    color: #3367d6;
+}
+.text-link:hover{
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 10px;
+}
+footer::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.wleft {
+    width: 70%;
+    height: auto;
+}
+
+.wright {
+    float:right;
+    width: 70%;
+    height: auto;
+}

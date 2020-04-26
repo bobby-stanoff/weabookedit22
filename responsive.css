@@ -1,0 +1,74 @@
+@media only screen and (max-width:1200px) {
+   .container{
+        padding: 0 2%;
+       width: 100%;
+    }
+}
+    
+@media only screen and (max-width:930px) {
+        
+    html{
+        font-size: 15px;
+    }
+    .ree{left: 20%;}
+}
+@media only screen and (max-width:780px){
+    .span-2-of-3{
+        width: 50%;
+    }
+    .span-1-of-3{
+        width: 48%;
+    }
+    .button2{
+        padding: 2.5%;
+    }
+    .ree{
+        left: 10%;
+    }
+    .ree p{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width:680px){
+    .navcorner{
+    float: right;
+    color: rgba(235, 235, 235, 0.99);
+    margin-top: 15px;
+    margin-right: 40px;
+}
+    .searchbar{
+        display: none;
+    }
+    .span-1-of-5{
+        width: 48%;
+    }
+}
+@media only screen and (max-width:580px){
+    
+    .span-2-of-3{
+        width: 100%;
+        
+    }
+    .span-1-of-3{
+        width: 90%;
+        margin: 0 auto;
+        margin-left: 4.5%;
+    }
+    .ree{left: 25%;
+    top: 20%;}
+    footer{
+        margin-top: 5%;
+    }
+    a .text-link{
+        line-height: 10%;
+    }
+}
+@media only screen and (max-width:480px){
+    .footer-text{
+        margin-bottom: 2%;
+    }
+    .ree{
+        left: 10%;
+        right: auto;
+    }
+}
